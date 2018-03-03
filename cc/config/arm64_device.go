@@ -158,7 +158,7 @@ func (t *toolchainArm64) GccRoot() string {
 }
 
 func (t *toolchainArm64) GccTriple() string {
-	return "aarch64-linux-android"
+	return "aarch64-linaro-linux-android"
 }
 
 func (t *toolchainArm64) GccVersion() string {

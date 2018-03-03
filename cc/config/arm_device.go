@@ -312,7 +312,7 @@ func (t *toolchainArm) GccRoot() string {
 }
 
 func (t *toolchainArm) GccTriple() string {
-	return "arm-linux-androideabi"
+	return "arm-linaro-linux-androideabi"
 }
 
 func (t *toolchainArm) GccVersion() string {
